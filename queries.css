@@ -1,0 +1,188 @@
+@media (max-width: 93.75em) {
+  .property__container {
+    width: 130rem;
+  }
+}
+
+@media (max-width: 81.25em) {
+  .property__container {
+    width: 90rem;
+    height: 300rem;
+  }
+
+  main {
+    height: 330rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .property__container {
+    width: 50rem;
+    height: 580rem;
+  }
+
+  main {
+    height: 590rem;
+  }
+}
+
+@media (max-width: 47.5em) {
+  .dates__container {
+    flex-direction: column;
+    height: 16rem;
+  }
+
+  .modal {
+    position: absolute;
+    top: 80%;
+    width: 34rem;
+  }
+
+  .destination__container {
+    width: 34rem;
+  }
+
+  .dates__container {
+    width: 34rem;
+  }
+
+  .departing__container {
+    width: 34rem;
+  }
+
+  .accommodation__type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rooms__container {
+    flex-direction: column;
+    height: 16rem;
+    width: 34rem;
+  }
+
+  .amenities__container {
+    height: 18rem;
+    padding: 0 1rem;
+    margin-left: 1rem;
+  }
+
+  .search__input {
+    width: 30rem;
+  }
+
+  .button__filters {
+    width: 30rem;
+  }
+
+  .distance__container {
+    flex-direction: column;
+    height: 34rem;
+    gap: 2rem;
+    width: 34rem;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .property__container {
+    width: 30rem;
+  }
+
+  .modal {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    width: 100vw;
+    display: flex;
+  }
+
+  .button__filters {
+    width: 92vw;
+  }
+
+  .search__input {
+    width: 92vw;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  .img__container {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  .data__container {
+    width: 30rem;
+    height: 38rem;
+  }
+  .description__text {
+    height: 18rem;
+  }
+
+  .center__container {
+    width: 34rem;
+  }
+
+  .departing__container {
+    width: 30rem;
+  }
+
+  .arriving__container {
+    width: 30rem;
+  }
+
+  .room__container {
+    width: 30rem;
+  }
+
+  .center__container {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 20.62em) {
+  .amenities__container {
+    height: 22rem;
+  }
+
+  .destination {
+    width: 28rem;
+  }
+
+  .arriving__date {
+    width: 28rem;
+  }
+
+  .departing__date {
+    width: 28rem;
+  }
+
+  .bathrooms {
+    width: 28rem;
+  }
+
+  .bedrooms {
+    width: 28rem;
+  }
+
+  .destination__container {
+    width: 28rem;
+  }
+
+  .dates__container {
+    width: 28rem;
+  }
+
+  .rooms__container {
+    width: 28rem;
+  }
+
+  .distance__container {
+    width: 28rem;
+  }
+}
